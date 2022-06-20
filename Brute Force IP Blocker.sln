@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Brute Force IP Blocker", "Brute Force IP Blocker\Brute Force IP Blocker.csproj", "{69AC908A-63BE-4254-9A58-7D8066C64735}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69AC908A-63BE-4254-9A58-7D8066C64735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69AC908A-63BE-4254-9A58-7D8066C64735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69AC908A-63BE-4254-9A58-7D8066C64735}.Debug|x64.ActiveCfg = Debug|x64
+		{69AC908A-63BE-4254-9A58-7D8066C64735}.Debug|x64.Build.0 = Debug|x64
+		{69AC908A-63BE-4254-9A58-7D8066C64735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69AC908A-63BE-4254-9A58-7D8066C64735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69AC908A-63BE-4254-9A58-7D8066C64735}.Release|x64.ActiveCfg = Release|x64
+		{69AC908A-63BE-4254-9A58-7D8066C64735}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6421E805-9C8A-4FD3-BAF3-8EE08CB216AC}
+	EndGlobalSection
+EndGlobal
