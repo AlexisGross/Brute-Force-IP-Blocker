@@ -3,11 +3,11 @@ Esta aplicación tiene como objetivo principal evitar que los piratas informáti
 
 ![image](https://user-images.githubusercontent.com/75038053/176223716-3410aa9b-86b2-4883-a2e5-e2596ff5527c.png)
 
-¿Como detecta los inicios de sesión erroneos?
+### ¿Como detecta los inicios de sesión erroneos?
 
 El programa lee todos los eventos de seguridad y obtiene las IPs de los eventos del tipo "Microsoft-Windows-Security-Auditing".
 
-Funciones de la aplicacion:
+## Funciones de la aplicacion:
  * Puede obtener todas las IPs que tuvieron un inicio de sesión incorrecto y mostrarlas al usuario.
  * Puede bloquear mediante el Firewall de Windows Defender toda la lista de IPs mostradas al usuario.
  * Cuenta con un modo de escaneo continuo, que a cada cierto intervalo de tiempo configurable lee los eventos de seguridad y bloquea automaticamente las nuevas IPs infractoras.
