@@ -38,7 +38,7 @@ namespace Brute_Force_IP_Blocker
                 }
                 else if (consoleKey == ConsoleKey.N)
                 {
-                    Console.WriteLine("\n¿Desea bloquear estas IPs en el Firewall de Windows Defender?");
+                    Console.WriteLine("\n\n¿Desea bloquear estas IPs en el Firewall de Windows Defender?");
                     Console.WriteLine("[S] Si [N] No");
                     consoleKey = Console.ReadKey().Key;
                     if (consoleKey == ConsoleKey.S)
@@ -54,7 +54,7 @@ namespace Brute_Force_IP_Blocker
                         }
                         else if (consoleKey == ConsoleKey.N)
                         {
-                            Console.WriteLine("\nNo se ha eliminado ningun registro de seguridad");
+                            Console.WriteLine("\n\nNo se ha eliminado ningun registro de seguridad");
                         }
                         else
                         {
@@ -111,7 +111,7 @@ namespace Brute_Force_IP_Blocker
                             Encontrado = true;
                         }
                     }
-                    if (!Encontrado)
+                    if (!Encontrado && IP != "-")
                     {
                         eventLogEntryCollectionBadLogIn.Add(IP);
                     }
