@@ -160,7 +160,9 @@ namespace Brute_Force_IP_Blocker
         
         private static void DeleteSecurityEvents()
         {
-            EventLog.Delete("Microsoft-Windows-Security-Auditing");
+            EventLog eventLog = new EventLog();
+            eventLog.Log = "Security";
+            eventLog.Clear();
         }
 
         private static IFirewallRule GetIPBloqued()
