@@ -1,5 +1,5 @@
 # Brute Force IP Blocker
-Esta aplicación tiene como objetivo principal evitar que los piratas informáticos realizen ataques de fuerza bruta para obtener accesso ya sea por escritorio remoto, servidores de archivos o bases de datos como SQL Server
+Esta aplicación tiene como objetivo principal evitar que los piratas informáticos realicen ataques de fuerza bruta para obtener accesso ya sea por escritorio remoto, servidores de archivos o bases de datos como SQL Server
 
 ![image](https://user-images.githubusercontent.com/75038053/176223716-3410aa9b-86b2-4883-a2e5-e2596ff5527c.png)
 
