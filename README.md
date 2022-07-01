@@ -14,7 +14,7 @@ El programa lee todos los eventos de seguridad y obtiene las IPs de los eventos 
  * Se puede activar una opcion que permite vaciar automaticamente los eventos de seguridad una vez se hallan bloqueado las IPs infractoras para disminuir el costo de recursos que implica analiazar miles de registros cada vez que se ejecute el escaneo.
 
 ## Requisitos para compilar el programa
- * Visual Studio 2019 o superior con la carga de trabajo "Desarrollo de escritorio de .NET" instalada.
+ * [Visual Studio 2019](https://visualstudio.microsoft.com) o superior con la carga de trabajo "Desarrollo de escritorio de .NET" instalada.
  
 ## Pasos para compilar el programa
  * Abrir el proyecto en Visual Studio.
@@ -36,4 +36,4 @@ El programa lee todos los eventos de seguridad y obtiene las IPs de los eventos 
  * Se ha optimizado el código.
  
  #### Problemas conocidos de esta versión:
- * El vaciado de los registros de seguridad corrompen los registros de Windows. [Problema resuelto en la versión 1.1](#release-11)
+ * El vaciado de los registros de seguridad corrompen los registros de Windows. [[Problema resuelto en la versión 1.1](#release-11)]
