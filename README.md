@@ -36,4 +36,4 @@ El programa lee todos los eventos de seguridad y obtiene las IPs de los eventos 
  * Se ha optimizado el código.
  
  #### Problemas conocidos de esta versión:
- * El vaciado de los registros de seguridad corrompen los registros de Windows. [[Problema resuelto en la versión 1.1](#release-11)]
+ * El vaciado de los registros de seguridad corrompen los registros de Windows. ([Resuelto en la versión 1.1](#release-11))
