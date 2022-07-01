@@ -29,9 +29,11 @@ El programa lee todos los eventos de seguridad y obtiene las IPs de los eventos 
  * Ahora se ignoran los eventos en los que no se proporcionan una IP.
  * Ahora se vacía correctamente el registro de seguridad.
  
+ #### Problemas conocidos de esta versión:
+ * Al seleccionar el modo continuo, el programa finalizará la ejecución si es que no existen registros de intentos de inicio de sesión fallidos.
+ 
 ### Release 1.0
  * Se ha optimizado el código.
  
  #### Problemas conocidos de esta versión:
- * El modo continuo no esta implementado.
  * El vaciado de los registros de seguridad corrompen los registros de Windows.
