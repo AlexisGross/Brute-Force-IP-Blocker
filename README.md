@@ -31,6 +31,7 @@ El programa lee todos los eventos de seguridad y obtiene las IPs de los eventos 
  
  #### Problemas conocidos de esta versión:
  * Al seleccionar el modo continuo, el programa finalizará la ejecución si es que no existen registros de intentos de inicio de sesión fallidos.
+ * Al seleccionar el modo no continuo, el programa seguirá preguntando si desea bloquear las IPs en el firewall de Windows Defender aunque no se hayan detectado intentos de inicio de sesión fallidos.
  
 ### Release 1.0
  * Se ha optimizado el código.
